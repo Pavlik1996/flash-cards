@@ -28,8 +28,8 @@
 
   &:disabled {
     cursor: auto;
-    color: var(--color-light-900);
     background-color: var(--color-accent-900);
+    color: var(--color-light-900);
     box-shadow: none;
   }
 }
