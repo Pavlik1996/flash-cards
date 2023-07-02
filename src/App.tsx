@@ -1,11 +1,5 @@
-import { Link } from 'react-router-dom'
-
-import { Button } from './components/ui/button'
+import logOutIcon from './assets/icons/log-out.svg'
 
 export function App() {
-  return (
-    <Button as={Link} to={'/home'}>
-      Hello
-    </Button>
-  )
+  return <img src={logOutIcon} />
 }
